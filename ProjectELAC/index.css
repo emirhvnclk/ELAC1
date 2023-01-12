@@ -1,0 +1,351 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-image: url(images/a9ecf838-modified\ -\ Düzenlendi.png);
+    color: #272727;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    
+    
+    position: relative;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+h1 {
+    
+    text-align: center;
+    color: #e63d30;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width:250px;
+    margin: auto;         
+    
+  }
+
+.cardinfo {
+    display:flex
+}
+
+.navbar {
+  border-top-right-radius: 10px ;
+  border-top-left-radius: 10px ;
+  background-color: #fd8189;
+  width: 100%;
+}
+
+.navbar a {
+  
+  
+  padding: 3px;
+  margin: auto;
+  offset: 3px;
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: solid 3px #fec601;
+  border-radius: 10px;
+  font-size: 19px;
+  transition: 0.2s;
+}
+
+
+.navbar a:hover {
+  border: solid 3px  #fec601;
+  transform: scale(1);
+  
+
+}
+
+
+
+
+iframe {
+  width: 90%;
+  border: 10px solid rgb(3, 3, 3);
+  border-radius: 30px;
+}
+
+.contact {
+  text-align: center;
+  background-color:#ffffff7e ;
+}
+
+.contact a {
+  text-decoration: none;
+
+
+  color: #e63d30;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*  */
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  object-position: bottom;
+  justify-content: center;
+  
+
+}
+
+.container img {
+  width: 500px;
+  height: 200px;
+  justify-content: center;
+  object-fit: cover;
+  border-radius: 15px;
+  
+}
+
+
+
+
+.portfolio-menu{
+	text-align:center;
+}
+
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item{
+	width:100%;
+}
+.portfolio-item .item{
+	
+	
+	margin-bottom:10px;
+}
+
+
+
+
+
+/*  */
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.cardmain {
+  background-color: #6D9886;
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  padding: 1rem;
+  background: linear-gradient(to bottom left, #6D9886 40%, #6D9886 100%);
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.made_by{
+  font-weight: 400;
+  font-size: 13px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+
+
+/*********** ABOUT-US ***********/
+
+.aboutuscard head {
+  background-color: #b38c00;
+}
+
+.aboutuscard {
+  background-color: #fec601;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+
+@media screen and (max-width:600px) {
+  .aboutuscard{width: 80%;}
+}
+
+.doublecard {
+  margin: auto;
+  justify-content: center;
+  
+}
+
+.firstcard {
+  background-color: #fec601;
+  width: 50%;
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom:30px ;
+  
+}
+
+.secondcard {
+  background-color: #fec601;
+  width: 50%;
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+  
+}
+
+@media screen and (max-width:600px) {
+  .secondcard{width: 80%;}
+}
+
+@media screen and (max-width:600px) {
+  .firstcard{width: 80%;}
+}
+
+
+            /********** POP-UP  ***********/
+
+            
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.popup button {
+  border: #FFF5D6 solid 3px;
+  background-color: #FFF5D6;
+  border-radius:10px;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
